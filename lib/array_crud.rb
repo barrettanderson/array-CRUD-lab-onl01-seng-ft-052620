@@ -7,8 +7,8 @@ def create_an_array
 end
 
 def add_element_to_end_of_array(array, element)
-  [Macaroni]
-  add_element_to_end_of_array << cheese
+  array = [Macaroni]
+  element << cheese
 end
 
 def add_element_to_start_of_array(array, element)
